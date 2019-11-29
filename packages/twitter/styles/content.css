@@ -6,13 +6,11 @@ main {
 main > header {
   display: flex;
   font-size: 18px;
-  font-weight: bold;
   padding: 1rem;
   border-bottom: 1px solid #ebedee;
 }
 
 .tweet-form {
-  display: flex;
   color: #949494;
   font-size: 14px;
   border-bottom: 1px solid #ebedee;
@@ -20,7 +18,6 @@ main > header {
 }
 
 .tweet-form form .actions {
-  display: flex;
   align-items: baseline;
   margin-top: 1rem;
 }
@@ -43,7 +40,6 @@ main > header {
 
 .tweet .user .author {
   color: black;
-  font-weight: bold;
 }
 
 .tweet p.message {
