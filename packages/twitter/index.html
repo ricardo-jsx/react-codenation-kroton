@@ -161,7 +161,10 @@
   </main>
 
   <aside class="col-3 p-2">
-    <input class="search" type="text" placeholder="Search Twitter" />
+    <form id="search-form">
+      <input id="search-input" class="search" type="text" placeholder="Search Twitter" />
+      <input type="submit" class="d-none" />
+    </form>
   </aside>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
